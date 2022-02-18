@@ -1,0 +1,22 @@
+2. Results for the extraLargeArray
+insert 970.1322 ms
+append 3.8139 ms
+
+Results for the tinyArray
+insert 48 μs
+append 112.2 μs
+
+Results for the smallArray
+insert 56.9 μs
+append 123 μs
+
+Results for the mediumArray
+insert 220.3 μs
+append 179.9 μs
+
+Results for the largeArray
+insert 9.9735 ms
+append 751.5 μs
+
+
+Inserting scales higher because you are shifting each element over to make room for the new one. append is faster because you're just tacking on the new item to the END of the array 
